@@ -1,0 +1,29 @@
+{
+	"name": "open-mp-roleplay-framework",
+	"version": "1.0.0",
+	"description": "Modular SA-MP / open.mp Roleplay Gamemode Framework",
+	"user": "OpenMP-Community",
+	"repo": "roleplay-framework",
+	"dependencies": [
+		"open.mp/open.mp",
+		"pawn-lang/YSI-Includes@v5.x",
+		"Southclaws/pawn-cmd",
+		"maddinat0r/sscanf",
+		"pBlueG/SA-MP-MySQL@R41-4",
+		"Samp-Incognito/samp-streamer-plugin",
+		"Zeex/crashdetect",
+		"SyS-s/samp-bcrypt"
+	],
+	"build": {
+		"compiler": "qawno/pawncc.exe",
+		"args": [
+			"-d3",
+			"-O1",
+			"-;+",
+			"-(+",
+			"-Z+"
+		],
+		"input": "gamemodes/main.pwn",
+		"output": "gamemodes/main.amx"
+	}
+}

@@ -1,0 +1,45 @@
+# Kompilasi Pawn & Output Biner
+*.amx
+*.asm
+*.lst
+
+# Log dan debug server
+log.txt
+err.txt
+omp-server.log
+crashinfo.txt
+*.log
+
+# Konfigurasi Kredensial Sensitif
+mysql.ini
+.env
+bans.json
+
+# open.mp temporary files
+components/*.pdb
+*.pdb
+
+# Editor / IDE artifacts
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Log
+logs/
+*.log
+err.txt
+log.txt
+
+# Server executable
+omp-server.exe
+*.dll
+*.pdb
+
+# Temporary files
+*.tmp
+*.cache
+
+# Local configuration
+config.json
+mysql.ini
